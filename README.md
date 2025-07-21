@@ -147,7 +147,7 @@ This heatmap shows the correlation between numerical features:
 Logistic Regression achieved the highest accuracy, closely followed by SVM and Random Forest.
 Decision Tree had the lowest accuracy and would benefit from tuning or ensemble methods.
 
-Hyperparameter Tuning (GridSearchCV)
+# Hyperparameter Tuning (GridSearchCV)
 
 Used GridSearchCV to optimize model parameters and improve performance through cross-validation (cv=5).
 🔹 Logistic Regression
@@ -186,7 +186,7 @@ Used GridSearchCV to optimize model parameters and improve performance through c
 
     The linear kernel with small regularization worked best; suitable for linearly separable data.
 
-✅ Conclusion:
+Conclusion:
 
 Random Forest gave the best cross-validated accuracy, but Logistic Regression and SVM were close behind with simpler and more interpretable models.
 
